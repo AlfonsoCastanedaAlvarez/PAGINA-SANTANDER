@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Santander App</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+
+  <header class="hero">
+    <nav class="navbar">
+      <div class="brand">
+        <span>SANTANDER-CLON</span>
+      </div>
+
+      <a href="#pantallas" class="nav-btn">Ver app</a>
+    </nav>
+
+    <section class="hero-content">
+      <div class="hero-text">
+        <p class="tag">App bancaria fullstack</p>
+        <h1>Una banca móvil moderna, conectada a API y MongoDB.</h1>
+        <p>
+          Aplicación Android con registro, inicio de sesión, transferencias,
+          pagos de servicios, perfil de usuario y movimientos en tiempo real.
+        </p>
+
+        <div class="hero-actions">
+          <a href="#funciones" class="btn primary">Funcionalidades</a>
+          <a href="#tecnologias" class="btn secondary">Tecnologías</a>
+        </div>
+      </div>
+
+      <div class="phone-card">
+        <img src="img/home1.jpg" alt="Pantalla principal de la app" />
+      </div>
+    </section>
+  </header>
+
+  <main>
+
+    <section id="funciones" class="section">
+      <h2>Funcionalidades principales</h2>
+      <p class="section-desc">
+        La app permite administrar una cuenta bancaria simulada con datos reales
+        almacenados en MongoDB Atlas mediante una API desplegada en Render.
+      </p>
+
+      <div class="features">
+        <article>
+          <h3>Registro e inicio de sesión</h3>
+          <p>Los usuarios pueden crear cuenta e ingresar con sus credenciales.</p>
+        </article>
+
+        <article>
+          <h3>Saldo dinámico</h3>
+          <p>El balance se actualiza automáticamente después de pagos y transferencias.</p>
+        </article>
+
+        <article>
+          <h3>Transferencias</h3>
+          <p>Permite enviar dinero a otros usuarios registrados dentro de la app.</p>
+        </article>
+
+        <article>
+          <h3>Movimientos</h3>
+          <p>Muestra historial de envíos, recibos y pagos de servicios.</p>
+        </article>
+
+        <article>
+          <h3>Amenidades</h3>
+          <p>Simula pagos de Spotify, Netflix, luz y agua.</p>
+        </article>
+
+        <article>
+          <h3>Perfil</h3>
+          <p>Consulta nombre, correo, teléfono y saldo actual del usuario.</p>
+        </article>
+      </div>
+    </section>
+
+    <section id="pantallas" class="section dark-section">
+      <h2>Pantallas de la aplicación</h2>
+
+      <div class="screens-grid">
+
+        <article class="screen-card">
+          <img src="img/main.jpg" alt="Pantalla inicial" />
+          <div>
+            <h3>Inicio</h3>
+            <p>Pantalla principal con acceso a inicio de sesión y creación de cuenta.</p>
+          </div>
+        </article>
+
+        <article class="screen-card">
+          <img src="img/register.jpg" alt="Pantalla de registro" />
+          <div>
+            <h3>Registro</h3>
+            <p>Formulario para crear nuevos usuarios conectados a MongoDB.</p>
+          </div>
+        </article>
+
+        <article class="screen-card">
+          <img src="img/login.jpg" alt="Pantalla de login" />
+          <div>
+            <h3>Login</h3>
+            <p>Validación de credenciales mediante API REST.</p>
+          </div>
+        </article>
+
+        <article class="screen-card">
+          <img src="img/home1.jpg" alt="Dashboard" />
+          <div>
+            <h3>Dashboard</h3>
+            <p>Muestra saludo, balance, acciones rápidas y navegación principal.</p>
+          </div>
+        </article>
+
+        <article class="screen-card">
+          <img src="img/home2.jpg" alt="Últimos movimientos" />
+          <div>
+            <h3>Últimos movimientos</h3>
+            <p>Resumen de las operaciones más recientes del usuario.</p>
+          </div>
+        </article>
+
+        <article class="screen-card">
+          <img src="img/profile.jpg" alt="Perfil" />
+          <div>
+            <h3>Perfil</h3>
+            <p>Datos del usuario y saldo consultados desde la API.</p>
+          </div>
+        </article>
+
+        <article class="screen-card">
+          <img src="img/movements.jpg" alt="Movimientos" />
+          <div>
+            <h3>Movimientos</h3>
+            <p>Historial completo de transferencias y pagos realizados.</p>
+          </div>
+        </article>
+
+        <article class="screen-card">
+          <img src="img/services.jpg" alt="Servicios" />
+          <div>
+            <h3>Servicios y pagos</h3>
+            <p>Pagos simulados de servicios que descuentan saldo real.</p>
+          </div>
+        </article>
+
+        <article class="screen-card">
+          <img src="img/transfer.jpg" alt="Transferencia" />
+          <div>
+            <h3>Transferencia</h3>
+            <p>Envía dinero a usuarios registrados y actualiza ambos saldos.</p>
+          </div>
+        </article>
+
+      </div>
+    </section>
+
+    <section id="tecnologias" class="section">
+      <h2>Tecnologías utilizadas</h2>
+
+      <div class="tech-list">
+        <span>Android Studio</span>
+        <span>Java</span>
+        <span>Retrofit</span>
+        <span>Node.js</span>
+        <span>Express</span>
+        <span>MongoDB Atlas</span>
+        <span>Render</span>
+        <span>API REST</span>
+      </div>
+    </section>
+
+  </main>
+
+  <footer>
+    <p>Proyecto Santander Digital · Aplicación bancaria móvil fullstack</p>
+  </footer>
+
+</body>
+</html>
